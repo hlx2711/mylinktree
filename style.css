@@ -1,94 +1,39 @@
-/* Header / Judul */
-.center {
-  text-align: center;
-  border-radius: 100px;
-  background-color: rgba(161, 94, 223, 0.598);
-  padding: 20px;
-  margin: 20px auto;
-  max-width: 90%;
-  font-size: 2rem;
+.center {text-align: center;
+border-radius: 100px;
+background-color: rgba(161, 94, 223, 0.598);
 }
-
-/* Gambar Profil */
-img {
-  border-radius: 75px;
-  width: 50%;
-  max-width: 200px;
-  height: auto;
-  margin: 20px 0;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-}
-
-/* Nama */
-h2 {
-  font-size: 1.8rem;
-  margin: 10px;
-}
-
-/* Status */
-h3 {
-  margin: 10px;
-  font-size: 1.5rem;
-}
-
-/* Background & Font Umum */
-body {
-  background: linear-gradient(to right, slateblue, lightblue);
-  font-family: 'Fira Sans', sans-serif;
-  color: white;
-  text-align: center;
-  margin: 0;
-  padding: 0 15px;
-  box-sizing: border-box;
-}
-
-/* Link Sosial Media */
-a {
-  background-color: white;
-  font-size: 1.4rem;
-  border-radius: 12px;
-  padding: 18px 28px;
-  display: block;
-  text-align: center;
-  margin: 18px auto;
-  color: slateblue;
-  font-family: 'Times New Roman', Times, serif;
-  text-decoration: none;
-  width: 90%;
-  max-width: 320px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transition: all 0.3s ease;
-}
-
-/* Hover Efek */
-a:hover {
-  color: aquamarine;
-  background-color: rgb(73, 154, 212);
-  transform: scale(1.05);
-}
-
-/* Responsive: Mobile */
-@media (max-width: 480px) {
-  img {
-    width: 60%;
-  }
-
-  h2 {
-    font-size: 2rem;
-  }
-
-  h3 {
-    font-size: 1.6rem;
-  }
-
-  a {
-    font-size: 1.4rem;
-    width: 95%;
-    padding: 20px 32px;
-  }
-
-  .center {
-    font-size: 2rem;
-    padding: 18px;
-  }
-}
+    img {
+     border-radius: 75px 75px 75px 75px;
+    }
+    h2 {
+     font-size: 20px;
+     margin: 10px;
+    }
+    h3{
+      margin: 10px;
+    }
+    body {
+     background: linear-gradient(to right, slateblue, lightblue);
+     font-family: 'Fira Sans', sans-serif;
+     color: white;
+     text-align: center;
+     margin: auto;
+    }
+    a {
+     background-color: white;
+     font-size: 20px;
+     border-radius: 10px;
+     padding: 10px;
+     display: block;
+     text-align: center;
+     margin: 10px;
+     color: slateblue;
+     font-family: 'Times New Roman', Times, serif;
+     text-decoration: none;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    a:hover{
+      color: aquamarine;
+      background-color: rgb(73, 154, 212);
+    }
+  
