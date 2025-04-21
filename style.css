@@ -1,39 +1,141 @@
-.center {text-align: center;
-border-radius: 100px;
-background-color: rgba(161, 94, 223, 0.598);
+/* Header / Judul */
+.center {
+  text-align: center;
+  border-radius: 100px;
+  background-color: rgba(161, 94, 223, 0.598);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 90%;
+  font-size: 1.5rem;
 }
-    img {
-     border-radius: 75px 75px 75px 75px;
-    }
-    h2 {
-     font-size: 20px;
-     margin: 10px;
-    }
-    h3{
-      margin: 10px;
-    }
-    body {
-     background: linear-gradient(to right, slateblue, lightblue);
-     font-family: 'Fira Sans', sans-serif;
-     color: white;
-     text-align: center;
-     margin: auto;
-    }
-    a {
-     background-color: white;
-     font-size: 20px;
-     border-radius: 10px;
-     padding: 10px;
-     display: block;
-     text-align: center;
-     margin: 10px;
-     color: slateblue;
-     font-family: 'Times New Roman', Times, serif;
-     text-decoration: none;
-     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    }
-    a:hover{
-      color: aquamarine;
-      background-color: rgb(73, 154, 212);
-    }
-  
+
+/* Gambar Profil */
+img {
+  border-radius: 75px;
+  width: 30%;
+  max-width: 150px;
+  height: auto;
+  margin: 20px 0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+/* Nama */
+h2 {
+  font-size: 1.5rem;
+  margin: 10px;
+}
+
+/* Status */
+h3 {
+  margin: 10px;
+  font-size: 1.2rem;
+}
+
+/* Background & Font Umum */
+body {
+  background: linear-gradient(to right, slateblue, lightblue);
+  font-family: 'Fira Sans', sans-serif;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+/* Link Sosial Media */
+a {
+  background-color: white;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  padding: 14px 24px;
+  display: block;
+  text-align: center;
+  margin: 15px auto;
+  color: slateblue;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
+  max-width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+/* Hover Efek */
+a:hover {
+  color: aquamarine;
+  background-color: rgb(73, 154, 212);
+  transform: scale(1.05);
+}
+
+/* Responsive: Tablet */
+@media (max-width: 768px) {
+  img {
+    width: 40%;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+  }
+
+  a {
+    font-size: 1.1rem;
+    padding: 12px 20px;
+  }
+}
+
+/* Responsive: Mobile */
+@media (max-width: 480px) {
+  img {
+    width: 50%;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  h3 {
+    font-size: 1.4rem;
+  }
+
+  a {
+    font-size: 1.2rem;
+    width: 90%;
+    padding: 16px 30px;
+  }
+
+  .center {
+    font-size: 1.8rem;
+    padding: 15px;
+  }
+}
+
+/* Responsive: Smartphone 6.58 inch (1080x2408 pixels) */
+@media (device-width: 1080px) and (device-height: 2408px) and (-webkit-min-device-pixel-ratio: 2) {
+  .center {
+    font-size: 2.2rem;
+    padding: 22px;
+  }
+
+  img {
+    width: 55%;
+    max-width: 220px;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.6rem;
+  }
+
+  a {
+    font-size: 1.5rem;
+    padding: 20px 32px;
+    width: 92%;
+    max-width: 340px;
+  }
+}
