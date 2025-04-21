@@ -6,14 +6,14 @@
   padding: 20px;
   margin: 20px auto;
   max-width: 90%;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 /* Gambar Profil */
 img {
   border-radius: 75px;
-  width: 30%;
-  max-width: 150px;
+  width: 50%;
+  max-width: 200px;
   height: auto;
   margin: 20px 0;
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
@@ -21,14 +21,14 @@ img {
 
 /* Nama */
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   margin: 10px;
 }
 
 /* Status */
 h3 {
   margin: 10px;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 /* Background & Font Umum */
@@ -45,16 +45,17 @@ body {
 /* Link Sosial Media */
 a {
   background-color: white;
-  font-size: 1.2rem; /* Perbesar font size untuk smartphone */
-  border-radius: 10px;
-  padding: 14px 24px; /* Tambahkan padding lebih besar */
+  font-size: 1.4rem;
+  border-radius: 12px;
+  padding: 18px 28px;
   display: block;
   text-align: center;
-  margin: 15px auto;
+  margin: 18px auto;
   color: slateblue;
   font-family: 'Times New Roman', Times, serif;
   text-decoration: none;
-  max-width: 300px;
+  width: 90%;
+  max-width: 320px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease;
 }
@@ -66,48 +67,28 @@ a:hover {
   transform: scale(1.05);
 }
 
-/* Responsive: Tablet */
-@media (max-width: 768px) {
-  img {
-    width: 40%;
-  }
-
-  h2 {
-    font-size: 1.4rem;
-  }
-
-  h3 {
-    font-size: 1.1rem;
-  }
-
-  a {
-    font-size: 1.1rem;
-    padding: 12px 20px;
-  }
-}
-
 /* Responsive: Mobile */
 @media (max-width: 480px) {
   img {
-    width: 50%; /* Lebihkan lebar gambar */
+    width: 60%;
   }
 
   h2 {
-    font-size: 1.6rem; /* Perbesar font pada judul */
+    font-size: 2rem;
   }
 
   h3 {
-    font-size: 1.4rem; /* Perbesar font pada status */
+    font-size: 1.6rem;
   }
 
   a {
-    font-size: 1.2rem; /* Ukuran font lebih besar pada tombol */
-    width: 90%; /* Lebihkan lebar tombol */
-    padding: 16px 30px; /* Perbesar padding */
+    font-size: 1.4rem;
+    width: 95%;
+    padding: 20px 32px;
   }
 
   .center {
-    font-size: 1.8rem; /* Sesuaikan ukuran judul */
-    padding: 15px;
+    font-size: 2rem;
+    padding: 18px;
   }
 }
