@@ -3,9 +3,10 @@
   text-align: center;
   border-radius: 100px;
   background-color: rgba(161, 94, 223, 0.598);
-  padding: 15px;
+  padding: 20px;
   margin: 20px auto;
   max-width: 90%;
+  font-size: 1.5rem;
 }
 
 /* Gambar Profil */
@@ -14,7 +15,7 @@ img {
   width: 30%;
   max-width: 150px;
   height: auto;
-  margin: 15px 0;
+  margin: 20px 0;
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
 }
 
@@ -44,12 +45,12 @@ body {
 /* Link Sosial Media */
 a {
   background-color: white;
-  font-size: 1rem;
+  font-size: 1.2rem; /* Perbesar font size untuk smartphone */
   border-radius: 10px;
-  padding: 12px 20px;
+  padding: 14px 24px; /* Tambahkan padding lebih besar */
   display: block;
   text-align: center;
-  margin: 20px auto;
+  margin: 15px auto;
   color: slateblue;
   font-family: 'Times New Roman', Times, serif;
   text-decoration: none;
@@ -72,7 +73,7 @@ a:hover {
   }
 
   h2 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
 
   h3 {
@@ -80,33 +81,33 @@ a:hover {
   }
 
   a {
-    font-size: 0.95rem;
-    padding: 10px 16px;
+    font-size: 1.1rem;
+    padding: 12px 20px;
   }
 }
 
 /* Responsive: Mobile */
 @media (max-width: 480px) {
   img {
-    width: 50%;
+    width: 50%; /* Lebihkan lebar gambar */
   }
 
   h2 {
-    font-size: 1.1rem;
+    font-size: 1.6rem; /* Perbesar font pada judul */
   }
 
   h3 {
-    font-size: 1rem;
+    font-size: 1.4rem; /* Perbesar font pada status */
   }
 
   a {
-    font-size: 1rem;
-    width: 100%;
-    margin: 15px auto;
+    font-size: 1.2rem; /* Ukuran font lebih besar pada tombol */
+    width: 90%; /* Lebihkan lebar tombol */
+    padding: 16px 30px; /* Perbesar padding */
   }
 
   .center {
-    font-size: 1.2rem;
-    padding: 10px;
+    font-size: 1.8rem; /* Sesuaikan ukuran judul */
+    padding: 15px;
   }
 }
